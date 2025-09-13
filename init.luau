@@ -94,7 +94,6 @@ local Converted = {
 	["_Icon2"] = Instance.new("ImageLabel");
 	["_UIAspectRatioConstraint1"] = Instance.new("UIAspectRatioConstraint");
 }
-
 -- Properties:
 
 Converted["_Flow"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -843,40 +842,51 @@ Converted["_UIListLayout4"].Padding = UDim.new(0, 6)
 Converted["_UIListLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout4"].Parent = Converted["_RightSection"]
 
+Converted["_UIScale"].Scale = (game:GetService("UserInputService").TouchEnabled and 1.5) or 1
 Converted["_UIScale"].Parent = Converted["_Container"]
 
 Converted["_UIAspectRatioConstraint"].AspectRatio = 1.8028168678283691
 Converted["_UIAspectRatioConstraint"].Parent = Converted["_Flow"]
 
 Converted["_Mobile"].Font = Enum.Font.SourceSans
-Converted["_Mobile"].Text = ""
-Converted["_Mobile"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Mobile"].TextSize = 14
-Converted["_Mobile"].AutoButtonColor = false
+Converted["_Mobile"].Text = "â‰¡"
+Converted["_Mobile"].TextColor3 = Color3.fromRGB(255,255,255)
+Converted["_Mobile"].TextSize = 18
+Converted["_Mobile"].AutoButtonColor = true
 Converted["_Mobile"].AnchorPoint = Vector2.new(0.5, 0)
-Converted["_Mobile"].BackgroundColor3 = Color3.fromRGB(13.000000175088644, 13.000000175088644, 13.000000175088644)
-Converted["_Mobile"].BackgroundTransparency = 0.10000000149011612
-Converted["_Mobile"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Mobile"].BackgroundColor3 = Color3.fromRGB(13,13,13)
+Converted["_Mobile"].BackgroundTransparency = 0.1
+Converted["_Mobile"].BorderColor3 = Color3.fromRGB(0,0,0)
 Converted["_Mobile"].BorderSizePixel = 0
-Converted["_Mobile"].Position = UDim2.new(0.5, 0, 0.902557433, 0)
-Converted["_Mobile"].Size = UDim2.new(0.0360920988, 0, 0.0440097786, 0)
+Converted["_Mobile"].Position = UDim2.new(0.5, 0, 0.93, 0)
+Converted["_Mobile"].Size = UDim2.new(0, 40, 0, 40)
 Converted["_Mobile"].Name = "Mobile"
 Converted["_Mobile"].Parent = Converted["_Flow"]
 
 Converted["_UICorner10"].CornerRadius = UDim.new(0, 10)
 Converted["_UICorner10"].Parent = Converted["_Mobile"]
 
+-- Mobile icon example (hamburger)
 Converted["_Icon2"].Image = "rbxassetid://85235558678018"
-Converted["_Icon2"].ImageTransparency = 0.4000000059604645
+Converted["_Icon2"].ImageTransparency = 0.4
 Converted["_Icon2"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Icon2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Icon2"].BackgroundColor3 = Color3.fromRGB(255,255,255)
 Converted["_Icon2"].BackgroundTransparency = 1
-Converted["_Icon2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Icon2"].BorderColor3 = Color3.fromRGB(0,0,0)
 Converted["_Icon2"].BorderSizePixel = 0
 Converted["_Icon2"].Position = UDim2.new(0.5, 0, 0.5, 0)
-Converted["_Icon2"].Size = UDim2.new(0.258620679, 0, 0.5, 0)
+Converted["_Icon2"].Size = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_Icon2"].Name = "Icon"
 Converted["_Icon2"].Parent = Converted["_Mobile"]
 
 Converted["_UIAspectRatioConstraint1"].AspectRatio = 1.6111111640930176
 Converted["_UIAspectRatioConstraint1"].Parent = Converted["_Mobile"]
+
+-- Make main container draggable for mobile/touch
+Converted["_Container"].Active = true
+Converted["_Container"].Draggable = true
+
+-- Listen for mobile button to toggle UI open/close
+Converted["_Mobile"].MouseButton1Click:Connect(function()
+	Converted["_Container"].Visible = not Converted["_Container"].Visible
+end)
