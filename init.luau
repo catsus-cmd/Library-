@@ -195,7 +195,6 @@ Converted["_UIPadding"].PaddingLeft = UDim.new(0, 9)
 Converted["_UIPadding"].Parent = Converted["_SearchBar"]
 
 Converted["_IconBG"].Image = "rbxassetid://137743164814611"
-Converted["_IconBG"].ImageContent = Content
 Converted["_IconBG"].AnchorPoint = Vector2.new(1, 0.5)
 Converted["_IconBG"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_IconBG"].BackgroundTransparency = 1
@@ -207,7 +206,6 @@ Converted["_IconBG"].Name = "IconBG"
 Converted["_IconBG"].Parent = Converted["_SearchBar"]
 
 Converted["_Icon"].Image = "rbxassetid://86686259429503"
-Converted["_Icon"].ImageContent = Content
 Converted["_Icon"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_Icon"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Icon"].BackgroundTransparency = 1
@@ -254,7 +252,6 @@ Converted["_UICorner3"].CornerRadius = UDim.new(0, 5)
 Converted["_UICorner3"].Parent = Converted["_Tab"]
 
 Converted["_Icon1"].Image = "rbxassetid://10709810463"
-Converted["_Icon1"].ImageContent = Content
 Converted["_Icon1"].AnchorPoint = Vector2.new(0, 0.5)
 Converted["_Icon1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Icon1"].BackgroundTransparency = 1
@@ -559,7 +556,6 @@ Converted["_Fill"].Name = "Fill"
 Converted["_Fill"].Parent = Converted["_Options"]
 
 Converted["_Corner"].Image = "rbxassetid://130629302605775"
-Converted["_Corner"].ImageContent = Content
 Converted["_Corner"].ImageTransparency = 0.5
 Converted["_Corner"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Corner"].BackgroundTransparency = 1
@@ -571,7 +567,6 @@ Converted["_Corner"].Name = "Corner"
 Converted["_Corner"].Parent = Converted["_Fill"]
 
 Converted["_Header1"].Image = "rbxassetid://70783523951929"
-Converted["_Header1"].ImageContent = Content
 Converted["_Header1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Header1"].BackgroundTransparency = 1
 Converted["_Header1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -582,7 +577,6 @@ Converted["_Header1"].Name = "Header"
 Converted["_Header1"].Parent = Converted["_Box"]
 
 Converted["_Arrow"].Image = "rbxassetid://136776761805636"
-Converted["_Arrow"].ImageContent = Content
 Converted["_Arrow"].ImageTransparency = 0.5
 Converted["_Arrow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Arrow"].BackgroundTransparency = 1
@@ -716,7 +710,6 @@ Converted["_UITextSizeConstraint11"].MinTextSize = 12
 Converted["_UITextSizeConstraint11"].Parent = Converted["_Value"]
 
 Converted["_Header2"].Image = "rbxassetid://72035547110749"
-Converted["_Header2"].ImageContent = Content
 Converted["_Header2"].ImageTransparency = 0.5
 Converted["_Header2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Header2"].BackgroundTransparency = 1
@@ -727,7 +720,6 @@ Converted["_Header2"].Name = "Header"
 Converted["_Header2"].Parent = Converted["_Module"]
 
 Converted["_Arrow1"].Image = "rbxassetid://136776761805636"
-Converted["_Arrow1"].ImageContent = Content
 Converted["_Arrow1"].ImageTransparency = 0.5
 Converted["_Arrow1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Arrow1"].BackgroundTransparency = 1
@@ -788,7 +780,6 @@ Converted["_UITextSizeConstraint12"].MinTextSize = 11
 Converted["_UITextSizeConstraint12"].Parent = Converted["_String"]
 
 Converted["_Delete"].Image = "rbxassetid://79831062733212"
-Converted["_Delete"].ImageContent = Content
 Converted["_Delete"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_Delete"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Delete"].BackgroundTransparency = 1
@@ -801,7 +792,6 @@ Converted["_Delete"].Name = "Delete"
 Converted["_Delete"].Parent = Converted["_Background"]
 
 Converted["_Edit"].Image = "rbxassetid://10734887784"
-Converted["_Edit"].ImageContent = Content
 Converted["_Edit"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_Edit"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Edit"].BackgroundTransparency = 1
@@ -877,7 +867,6 @@ Converted["_UICorner10"].CornerRadius = UDim.new(0, 10)
 Converted["_UICorner10"].Parent = Converted["_Mobile"]
 
 Converted["_Icon2"].Image = "rbxassetid://85235558678018"
-Converted["_Icon2"].ImageContent = Content
 Converted["_Icon2"].ImageTransparency = 0.4000000059604645
 Converted["_Icon2"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_Icon2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
